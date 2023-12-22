@@ -6,10 +6,15 @@
     <title>vue-hello</title>
     <!-- vuejs -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="app">
         <h1>{{ message }}</h1>
+        <div>
+        <img v-bind:src="Image" alt="">
+        </div>
     </div>
 
     <!-- js -->
